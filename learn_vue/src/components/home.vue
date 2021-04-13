@@ -1,17 +1,24 @@
 <template>
-  <div>
-    <h1>Hello world</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ut velit excepturi sit dignissimos quam adipisci laborum veniam? Libero asperiores molestiae porro accusamus blanditiis alias ratione eveniet laudantium expedita. Ducimus.</p>
+  <div id="nav">
+    <ul>
+      <li>{{list1}}</li>
+      <li>{{list1}}</li>
+      <li>{{list1}}</li>
+    </ul>
+    
   </div>
 </template>
 
 <script>
 export default {
-  name: "HelloWorld",
-  props: {
-    msg: String,
-  },
+  name: "nav",
+  data(){
+    return{
+      list1: 'HOME'
+    }
+  }
 };
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

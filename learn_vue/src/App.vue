@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-   
     <home msg="" />
   </div>
 </template>
